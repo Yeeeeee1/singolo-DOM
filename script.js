@@ -98,3 +98,15 @@ contact.onclick = function () {
 	window.location.hash="main-blockws";
 }
 
+screenVertical.onclick = function () {
+	if (n % 2 != 0) {
+	screenVertical.style.background = "black";
+	}
+}
+
+screenHorizontal.onclick = function () {
+	if (n % 2 != 0) {
+	screenHorizontal.style.background = "black";
+	}
+}
+
