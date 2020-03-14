@@ -53,3 +53,48 @@ rightArrow.onclick = function () {
 	n--;
 }
 
+home.onclick = function () {
+	home.style.color = "#db655f";
+	services.style.color = "white";
+	portfolio.style.color = "white";
+	about.style.color = "white";
+	contact.style.color = "white";
+	window.location.hash="header";
+}
+
+services.onclick = function () {
+	home.style.color = "white";
+	services.style.color = "#db655f";
+	portfolio.style.color = "white";
+	about.style.color = "white";
+	contact.style.color = "white";
+	window.location.hash="our-services";
+}
+
+portfolio.onclick = function () {
+	home.style.color = "white";
+	services.style.color = "white";
+	portfolio.style.color = "#db655f";
+	about.style.color = "white";
+	contact.style.color = "white";
+	window.location.hash="portfolio-block";
+}
+
+about.onclick = function () {
+	home.style.color = "white";
+	services.style.color = "white";
+	portfolio.style.color = "white";
+	about.style.color = "#db655f";
+	contact.style.color = "white";
+	window.location.hash="about-us-block";
+}
+
+contact.onclick = function () {
+	home.style.color = "white";
+	services.style.color = "white";
+	portfolio.style.color = "white";
+	about.style.color = "white";
+	contact.style.color = "#db655f";
+	window.location.hash="main-blockws";
+}
+
