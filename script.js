@@ -250,3 +250,11 @@ artwork.onclick = function () {
 	artwork.style.border = "1px solid white";
 }
 
+submit.onclick = function () {
+	if (subject.value.length != 0 && describe.value.length != 0) {
+	alert("Письмо отправлено \nТема: " + subject.value + "\n" + "Описание: " + describe.value);
+    } else {
+    	alert("Письмо отправлено \nБез темы \nБез описания");
+    }
+}
+
