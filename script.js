@@ -95,7 +95,7 @@ contact.onclick = function () {
 	portfolio.style.color = "white";
 	about.style.color = "white";
 	contact.style.color = "#db655f";
-	window.location.hash="main-blockws";
+	window.location.hash="main-block";
 }
 
 screenVertical.onclick = function () {
