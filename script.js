@@ -28,6 +28,8 @@ var submit = document.getElementById('submit');
 var subject = document.getElementById('subject');
 var describe = document.getElementById('describe');
 var n = 1;
+var q = 1;
+var j = 1;
 leftArrow.onclick = function () {
 	if (n % 2 != 0) {
 		main.style.background = "url(assets/slide_2.png)";
@@ -99,14 +101,22 @@ contact.onclick = function () {
 }
 
 screenVertical.onclick = function () {
-	if (n % 2 != 0) {
+	if (n % 2 != 0 && q % 2 != 0) {
 	screenVertical.style.background = "black";
+	q++;
+	} else {
+	screenVertical.style.background = "none";
+	q--;
 	}
 }
 
 screenHorizontal.onclick = function () {
-	if (n % 2 != 0) {
+	if (n % 2 != 0 && j % 2 != 0) {
 	screenHorizontal.style.background = "black";
+	j++;
+	} else {
+	screenHorizontal.style.background = "none";
+	j--;
 	}
 }
 
